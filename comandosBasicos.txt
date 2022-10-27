@@ -1,0 +1,19 @@
+help
+db.
+show dbs
+
+use wm
+
+db.createCollection('estados')
+db.createCollection('Estados')
+show collections
+
+
+db.Estados.drop()
+show collections
+
+db.estados.drop()
+show collections
+
+
+show dbs
