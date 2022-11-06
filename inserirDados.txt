@@ -12,7 +12,7 @@ db.estados.find()
 
 db.estados.find().pretty()
 
-db.estados.insert({nome: "Rio de Janeiro", sigla: "RJ", região: "Suldeste", cidades: [{nome: "Niterói", area: 133.9, populacao: 487562}]})
+db.estados.insert({nome: "Rio de Janeiro", sigla: "RJ", região: "Suldeste", cidades: [{_Id: ObjectId(), nome: "Niterói", area: 133.9, populacao: 487562}]})
 db.estados.find().pretty()
 
 db.help()
